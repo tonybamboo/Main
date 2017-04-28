@@ -106,16 +106,27 @@ hr {
 
 .summary {
     text-align: center;
+    max-width: 650px;
+    margin: 10px auto;
+}
+
+
+.proficiencies {
+    margin: auto auto;
+    max-width: 650px;
 }
 
 .proficiencies .bar {
     background-color: #658755;
     height: 1em;
+    max-width: 650px;
+   
 }
 
 .experience {
     margin: auto auto;
     width: 100%;
+    max-width: 650px;
 }
 
 .experience .block {
@@ -140,12 +151,22 @@ hr {
 
 .testimonials p {
     text-align: center;
+    max-width: 650px;
+    margin: 10px auto;
 }
 
 .awards {
     width: 100%;
     margin: 0px auto;
+    max-width: 650px;
 }
+
+.awards p{
+    margin: 10px auto;
+    text-align: center;
+    max-width: 650px;
+}
+
 
 .awards img {
     display: block;
@@ -154,6 +175,20 @@ hr {
     width: 25%;
     max-width: 100px;
 }
+
+
+
+.history{
+
+  margin: 0px auto;
+    max-width: 650px;
+}
+
+.contact p {
+text-align: center;
+}
+
+
 
 footer {
     margin-bottom: 25px;
